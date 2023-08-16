@@ -1,6 +1,8 @@
 import React from "react";
 import { Slip } from "../../interfaces/slip_interface";
 import styles from "./Card.module.css";
+import divider from "./../../assets/pattern-divider-mobile.svg";
+import random_button from "./../../assets/icon-dice.svg";
 
 interface CardProps {
   data: Slip;
@@ -23,7 +25,7 @@ export const Card: React.FC<CardProps> = ({ data, loadAbvice }) => {
       <figure className={styles["card__divider-container"]}>
         <img
           className={styles.card_divider}
-          src="/src/assets/images/pattern-divider-mobile.svg"
+          src={divider}
           alt="divider image"
         />
       </figure>
@@ -32,11 +34,7 @@ export const Card: React.FC<CardProps> = ({ data, loadAbvice }) => {
         onClick={loadAbvice}
         className={styles["card__random-button-container"]}
       >
-        <img
-          className="card__random-button"
-          src="/src/assets/images/icon-dice.svg"
-          alt="dice"
-        />
+        <img className="card__random-button" src={random_button} alt="dice" />
       </figure>
     </div>
   );
