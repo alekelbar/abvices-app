@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [source code](https://github.com/alekelbar/abvices-app)
+- Live Site URL: [Netlify](https://deluxe-brioche-f73c40.netlify.app/)
 
 ## My process
 
